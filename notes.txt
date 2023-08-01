@@ -1,0 +1,26 @@
+const const pi = 3.14!
+print(pi === "pi")// Maybe
+
+
+
+
+function regex:
+fu?n?c?t?i?o?n?|un?c?t?i?o?n?|nc?t?i?o?n?|ct?i?o?n?|ti?o?n?|io?n?|on?|n
+
+struct Variable
+{
+    std::wstring content;
+    union Type type;
+    int priority;
+}
+
+
+How to deal with uncertainty?
+=> COIN FLIP using the filename as a seed for the random number generator
+to make the output deterministic for a given file#line
+BUT not deterministic for a given code
+
+ex:
+- if (MAYBE) => coinflip (seed = time(NULL))
+- compiler can't choose between variable name and definition (?) => deterministic coin flip
+

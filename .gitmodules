@@ -1,0 +1,4 @@
+[submodule "repos/antlr4"]
+    path = repos/antlr4
+    url = https://github.com/antlr/antlr4
+    branch = master

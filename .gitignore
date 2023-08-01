@@ -12,7 +12,7 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so
+*.so*
 *.dylib
 *.dll
 
@@ -25,8 +25,18 @@
 *.la
 *.a
 *.lib
+lib/pkgconfig
 
 # Executables
 *.exe
 *.out
 *.app
+ccc
+lib/antlr4-complete.jar
+
+# Generated C++ and headers files
+generated
+include/antlr4-runtime
+include/gmock
+include/gtest
+
